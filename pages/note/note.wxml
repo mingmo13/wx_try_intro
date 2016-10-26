@@ -1,0 +1,28 @@
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  
+  <view class="myBlocks">
+    <view class="notebox" style="background:#8B658B;" bindtap="modalTap1">Sherlock</view>
+    <view class="notebox" style="background:blue;" bindtap="modalTap2">SAW</view>
+    <view class="notebox" style="background:red;" bindtap="modalTap3">Iron Man</view>
+  </view>
+  <modal class="modal" hidden="{{modalHidden1}}" no-cancel bindconfirm="modalChange1">
+      <view class="notelistTitle"> 神探夏洛克 </view>
+      <view class="notelist">Brainy is the new sexy </view>
+      <view class="notelist">Every fairy tale nees a good old-fashioned villain.</view>
+      <view class="notelist">Do you know the big problem with a disguise,Mr Holmes? However hard you try, it's always a self-portrait.</view>
+  </modal>
+  <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2">
+      <view class="notelistTitle"> 电锯惊魂 </view>
+      <view class="notelist"> Most people are so ungrateful to be alive. But not you. Not anymore.</view>
+      <view class="notelist">Those who don't appreciate life do not deserve life.</view>
+  </modal>
+  <modal class="modal" hidden="{{modalHidden3}}" no-cancel bindconfirm="modalChange3">
+      <view class="notelistTitle"> 钢铁侠 </view>
+      <view class="notelist">I should be dead already... It must be for a reason.</view>
+      <view class="notelist">I am iron man, the suit and I are one.</view>
+  </modal>
+</view>

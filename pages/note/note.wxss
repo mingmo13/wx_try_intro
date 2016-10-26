@@ -1,0 +1,38 @@
+/**note.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.littlespace{
+	margin-top:18px;
+}
+
+.notebox{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	margin:10px;
+	color:white;
+	text-align:center;
+	line-height:100px;
+}
+
+.notelistTitle{
+	font-weight:bold;
+}
+.notelist{
+	margin-top:8px;
+}
