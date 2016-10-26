@@ -1,0 +1,46 @@
+{ 
+  "pages":[  
+    "pages/index/index",
+    "pages/note/note",
+    "pages/love/love",
+    "pages/logs/logs"
+  ],  
+  "window":{  
+    "backgroundTextStyle":"light",  
+    "navigationBarBackgroundColor": "#999999",  
+    "navigationBarTitleText": "mingmo",  
+    "navigationBarTextStyle":"white"  
+  },  
+   "tabBar": {  
+    "color": "#ccc",  
+    "selectedColor": "#35495e",  
+    "borderStyle": "white",  
+    "backgroundColor": "#f9f9f9",  
+    "list": [  
+      {  
+        "text": "HOME",  
+        "pagePath": "pages/index/index",  
+        "iconPath": "image/star.png",  
+        "selectedIconPath": "image/star_active.png"  
+      },  
+      {  
+        "text": "LOVE",  
+        "pagePath": "pages/love/love",  
+        "iconPath": "image/love.png",  
+        "selectedIconPath": "image/love_active.png"  
+      },  
+      {  
+        "text": "NOTE",  
+        "pagePath": "pages/note/note",  
+        "iconPath": "image/note.png",  
+        "selectedIconPath": "image/note_active.png"  
+      },
+      {  
+        "text": "SET",  
+        "pagePath": "pages/note/note",  
+        "iconPath": "image/setting.png",  
+        "selectedIconPath": "image/setting_active.png"  
+      } 
+    ]  
+  }  
+}  
